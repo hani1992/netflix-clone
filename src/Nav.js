@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
@@ -15,11 +16,12 @@ function Nav() {
   }, []);
   return (
     <div className={`nav ${show && "nav__black"}`}>
-      <img
+      <Link to='/'><img
         className="nav__logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2014_logo.svg/1920px-Netflix_2014_logo.svg.png"
+        src="https://about.netflix.com/images/logo.png"
         alt="Netflix Logo"
       />
+      </Link>
     </div>
   );
 }

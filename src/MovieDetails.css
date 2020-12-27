@@ -1,0 +1,37 @@
+.container{
+    color: white;
+    object-fit: contain;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container__contents{
+    margin-left: 30px;
+    height: 190px;
+}
+
+.container__title{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.container__description{
+    padding-top: 25px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 450px;
+}
+
+.container__category{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #a3a3a3;
+    display: inline-block;
+    padding-top: 15px;
+}
